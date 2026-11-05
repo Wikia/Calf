@@ -1,0 +1,109 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../calf-core/0.14.0-fandom.1/calf-core-0.14.0-fandom.1.module",
+    "group": "com.mohamedrejeb.calf",
+    "module": "calf-core",
+    "version": "0.14.0-fandom.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "calf-core.aar",
+          "url": "calf-core-android-0.14.0-fandom.1.aar",
+          "size": 3748,
+          "sha512": "8f9516df4e349de6698debe5149744386d499b685444fcaaa316d67fe37e738ff82c2aa44191d5591a6f75544a05296cd7d70c4b41a311d49609b6754d83be1e",
+          "sha256": "20f46427c54af40cc3c56b57b50ef42d377b1f14c4c07a96ad0bd43b69ab1c2d",
+          "sha1": "f669a9896a0499d2d389e75e5e1d566ae3323c10",
+          "md5": "45eea7e92a3cb646809b6b12c12fa5a7"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "calf-core.aar",
+          "url": "calf-core-android-0.14.0-fandom.1.aar",
+          "size": 3748,
+          "sha512": "8f9516df4e349de6698debe5149744386d499b685444fcaaa316d67fe37e738ff82c2aa44191d5591a6f75544a05296cd7d70c4b41a311d49609b6754d83be1e",
+          "sha256": "20f46427c54af40cc3c56b57b50ef42d377b1f14c4c07a96ad0bd43b69ab1c2d",
+          "sha1": "f669a9896a0499d2d389e75e5e1d566ae3323c10",
+          "md5": "45eea7e92a3cb646809b6b12c12fa5a7"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "calf-core-android-0.14.0-fandom.1-sources.jar",
+          "url": "calf-core-android-0.14.0-fandom.1-sources.jar",
+          "size": 3134,
+          "sha512": "ddd867bd98724384baf04e2a0b2b0ab2a6d2785c0e5e60ea2c0fb0dbe1ee6e35fbbe73fe996684ead46a4409db6dd7775c31e653cfc92f348f322b0fd3b6e4e7",
+          "sha256": "7d56a4a2f3bb6e4cf9944ad76bcf6ea05439debb8be8a4fc9730ab08188cd246",
+          "sha1": "fe383cb7074e3d1398ad3820a11e01bd7e0d9d12",
+          "md5": "5a6271a93fef6d1a73a69b7bb56d1b84"
+        }
+      ]
+    }
+  ]
+}

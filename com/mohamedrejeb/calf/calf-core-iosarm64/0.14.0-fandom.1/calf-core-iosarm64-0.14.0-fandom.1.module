@@ -1,0 +1,155 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../calf-core/0.14.0-fandom.1/calf-core-0.14.0-fandom.1.module",
+    "group": "com.mohamedrejeb.calf",
+    "module": "calf-core",
+    "version": "0.14.0-fandom.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "calf-core-iosArm64Main-0.14.0-fandom.1.klib",
+          "url": "calf-core-iosarm64-0.14.0-fandom.1.klib",
+          "size": 10422,
+          "sha512": "9215913a4c762ab7911f49e583e018b03c9c6cc096a51314c695d8c17a3b327a1d8066aebc4c3bd835e7dc551c4615d4f66f900b67bb7d6d45b7a18b1014631f",
+          "sha256": "7cec57963c475b33203be70f77deba16de82d2f0ccf90d8e47b90c6a9038744c",
+          "sha1": "ae916d2a88488669f54dda8d0b46554372b85e62",
+          "md5": "9cc9e1249a52e5711864b53001811f70"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "calf-core-iosarm64-0.14.0-fandom.1-sources.jar",
+          "url": "calf-core-iosarm64-0.14.0-fandom.1-sources.jar",
+          "size": 3274,
+          "sha512": "0eb07c8ed383f752e34f98b9f849d754586d3a755396bbe56a36bcede4b6c26715a9f314cd25ce69e1d0d0b40506b7be4cadec880874e435def79a837bcf6acc",
+          "sha256": "75bda80300e7372bc360319e6b07e9a5b91284e3c40a8410bb9adb87a72cfcba",
+          "sha1": "0ac9a85673351f657d72d154144430b383802809",
+          "md5": "f6cf8963424212737108882fba1f0cbe"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "calf-core-0.14.0-fandom.1.kotlin_resources.zip",
+          "url": "calf-core-iosarm64-0.14.0-fandom.1-kotlin_resources.kotlin_resources.zip",
+          "size": 350,
+          "sha512": "54e1567c7cb6c17ca498e6544499770ea44712f24c53bb4d86427a890830878b0f76272e773e705d6a2c0393af74da08043c6f8d53ca8caada4201a3d76bb10a",
+          "sha256": "43e7562346c2442c722b7bb2a05fafa03da6974244eac117e4522927fdd150f3",
+          "sha1": "c7d2111db1f523514d1417ac486e3a21dc883252",
+          "md5": "7828721b3c6bc34f64f2e463b4377d98"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "calf-core-iosarm64-0.14.0-fandom.1-metadata.jar",
+          "url": "calf-core-iosarm64-0.14.0-fandom.1-metadata.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    }
+  ]
+}

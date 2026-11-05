@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../calf-ui/0.14.0-fandom.1/calf-ui-0.14.0-fandom.1.module",
+    "group": "com.mohamedrejeb.calf",
+    "module": "calf-ui",
+    "version": "0.14.0-fandom.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "calf-ui.aar",
+          "url": "calf-ui-android-0.14.0-fandom.1.aar",
+          "size": 368086,
+          "sha512": "0be579c44503b07997125fd8719a1af6b2d4ffec1979b98963c2f4cdafa70132e055251fb52c3e19986e4412d7d1de0b64b0b8441e1418de07a2b3fbda87ada8",
+          "sha256": "4db207708eceb9f9d7f34ba24ea625063d31e2250f50c6ac3eb11aacbd5e600f",
+          "sha1": "ec83cd24656cc519c19e53a708d0670502128b54",
+          "md5": "1cf78a4a21216e472e436321c865a927"
+        }
+      ]
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-compose",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "com.mohamedrejeb.calf",
+          "module": "calf-core",
+          "version": {
+            "requires": "0.14.0-fandom.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.12.0-alpha03"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "calf-ui.aar",
+          "url": "calf-ui-android-0.14.0-fandom.1.aar",
+          "size": 368086,
+          "sha512": "0be579c44503b07997125fd8719a1af6b2d4ffec1979b98963c2f4cdafa70132e055251fb52c3e19986e4412d7d1de0b64b0b8441e1418de07a2b3fbda87ada8",
+          "sha256": "4db207708eceb9f9d7f34ba24ea625063d31e2250f50c6ac3eb11aacbd5e600f",
+          "sha1": "ec83cd24656cc519c19e53a708d0670502128b54",
+          "md5": "1cf78a4a21216e472e436321c865a927"
+        }
+      ]
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "calf-ui-android-0.14.0-fandom.1-sources.jar",
+          "url": "calf-ui-android-0.14.0-fandom.1-sources.jar",
+          "size": 132197,
+          "sha512": "5484049147b885b74efdcd850283df266b50b60348af771c831a21ec3f95cd5446af9eae93c48f66f6cec3bd2f011e08f8443f803269e73742c85b028e20c18e",
+          "sha256": "7810231403631600d0d24e4895b41d0dff1227d23086a43058291b8314fddb67",
+          "sha1": "c60d3ac3419284cf89bf957a55663bf0380cf29e",
+          "md5": "6d8f2862fe7a271ee505fa74618c7378"
+        }
+      ]
+    }
+  ]
+}

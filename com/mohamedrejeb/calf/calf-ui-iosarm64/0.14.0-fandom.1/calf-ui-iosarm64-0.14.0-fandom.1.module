@@ -1,0 +1,260 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../calf-ui/0.14.0-fandom.1/calf-ui-0.14.0-fandom.1.module",
+    "group": "com.mohamedrejeb.calf",
+    "module": "calf-ui",
+    "version": "0.14.0-fandom.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        },
+        {
+          "group": "io.github.kyant0",
+          "module": "backdrop",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "io.github.kyant0",
+          "module": "shapes",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "com.mohamedrejeb.calf",
+          "module": "calf-core",
+          "version": {
+            "requires": "0.14.0-fandom.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.12.0-alpha03"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "calf-ui-iosArm64Main-0.14.0-fandom.1.klib",
+          "url": "calf-ui-iosarm64-0.14.0-fandom.1.klib",
+          "size": 1422280,
+          "sha512": "ead603569757d8b6c5a38ce06380c8ce0bc4959aa20ca038b2263f131cde032b4fb731000bb81341ff5637299f3b9db81b7e4d3d35f092e52a13b99114b8d001",
+          "sha256": "674e2cb2d92549ff6ef095af8176d25bea0572ecb971cc98e0970f4a406023a7",
+          "sha1": "c10fdbd2a6d2ba2620b2afc1dc06b6378b231c2f",
+          "md5": "debdeed2a8f1828a721fef42c837e206"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "calf-ui-iosarm64-0.14.0-fandom.1-sources.jar",
+          "url": "calf-ui-iosarm64-0.14.0-fandom.1-sources.jar",
+          "size": 190263,
+          "sha512": "f498bb12257de947c397be95e3a2c068c61c20136458b8e147ec1e4bcaa3a5a953a621e4cecf641135cd77af71cd838b769eaef6c16f099a941fdac6a5697829",
+          "sha256": "a464dbed51db20b6d65ca63b6b60150d5a05ef790ac348a98b35417de48c6ef3",
+          "sha1": "b01dd3259b04a53fc92199efbe8bec590881ef51",
+          "md5": "7704237ec97c3b4ddede74694bfe178d"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        },
+        {
+          "group": "io.github.kyant0",
+          "module": "backdrop",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "io.github.kyant0",
+          "module": "shapes",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "com.mohamedrejeb.calf",
+          "module": "calf-core",
+          "version": {
+            "requires": "0.14.0-fandom.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.12.0-alpha03"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "calf-ui-0.14.0-fandom.1.kotlin_resources.zip",
+          "url": "calf-ui-iosarm64-0.14.0-fandom.1-kotlin_resources.kotlin_resources.zip",
+          "size": 346,
+          "sha512": "8c132708527084f1626953f9faee5f8f79c7b2bbf5e1166e797497a88110b1396a62a42d802f6f987c683d84dc42fdfb847eda87bc6a0ed6a1035ec2bbe64f7d",
+          "sha256": "2a6897dda254704f23ab0e53c75ed424565b1fa4217c40decb4c1b9baceabc6c",
+          "sha1": "5e15ca49a23db69f0561c9725212e04593b3ef6f",
+          "md5": "971e8fb7a2ef31a20e2fe9fa83d2e8a5"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        },
+        {
+          "group": "io.github.kyant0",
+          "module": "backdrop",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "io.github.kyant0",
+          "module": "shapes",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "com.mohamedrejeb.calf",
+          "module": "calf-core",
+          "version": {
+            "requires": "0.14.0-fandom.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.12.0-alpha03"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "calf-ui-iosarm64-0.14.0-fandom.1-metadata.jar",
+          "url": "calf-ui-iosarm64-0.14.0-fandom.1-metadata.jar",
+          "size": 59427,
+          "sha512": "57e7287b4c5860ac616ba768c43aca05d335e00bc45d8eae95924689d27a414a04ecbd64fd7b0e7752bbbee071a5ef40d9b0ec92b9751dad642859063241416c",
+          "sha256": "bc4bddfe54ad85e8a416b3cae592801e2ac9d9a2a97d7384e24483991dbb7dbd",
+          "sha1": "f92e08d33f96dd21754f02054f931798f79aa1cb",
+          "md5": "27cb727d2e463fc987ecdb4261edbf15"
+        }
+      ]
+    }
+  ]
+}

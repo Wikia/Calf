@@ -1,0 +1,448 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mohamedrejeb.calf",
+    "module": "calf-core",
+    "version": "0.14.0-fandom.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "calf-core-metadata-0.14.0-fandom.1.jar",
+          "url": "calf-core-0.14.0-fandom.1.jar",
+          "size": 6200,
+          "sha512": "12008099606f0090c0debee09656d78620deecd000c32b0c6005063e4b30c29683cc73718e9655ca0e186d368571e4049525b7c53a10e56ab580442c653d5155",
+          "sha256": "8313512b07d3efa00bd52324f606ae06e765358ae7278b4d34659d9de4c0066d",
+          "sha1": "5f42a65c46203ab812e367f94e663663f71b58e3",
+          "md5": "a4dd66d5eb12dc23f424c846376095af"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "calf-core-kotlin-0.14.0-fandom.1-sources.jar",
+          "url": "calf-core-0.14.0-fandom.1-sources.jar",
+          "size": 3274,
+          "sha512": "8121a14ba0dea2adea19cd1de4f050dd1ccbcebec3a96a702e6532424e238e34ba3dbbf7b49796a112967a1d4003eb8814d3e4a29f8e6b5cda272fb91e0c6c49",
+          "sha256": "8ee0e58a853bc0a20215fbf33327579b830bd13ae57515d5f709398a96b2b91f",
+          "sha1": "74ffca725748c016d59fb45fa74efdbd57f4c511",
+          "md5": "0644f87c4bfcda80b9b666f11934208f"
+        }
+      ]
+    },
+    {
+      "name": "androidApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../calf-core-android/0.14.0-fandom.1/calf-core-android-0.14.0-fandom.1.module",
+        "group": "com.mohamedrejeb.calf",
+        "module": "calf-core-android",
+        "version": "0.14.0-fandom.1"
+      }
+    },
+    {
+      "name": "androidRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../calf-core-android/0.14.0-fandom.1/calf-core-android-0.14.0-fandom.1.module",
+        "group": "com.mohamedrejeb.calf",
+        "module": "calf-core-android",
+        "version": "0.14.0-fandom.1"
+      }
+    },
+    {
+      "name": "androidSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../calf-core-android/0.14.0-fandom.1/calf-core-android-0.14.0-fandom.1.module",
+        "group": "com.mohamedrejeb.calf",
+        "module": "calf-core-android",
+        "version": "0.14.0-fandom.1"
+      }
+    },
+    {
+      "name": "desktopApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../calf-core-desktop/0.14.0-fandom.1/calf-core-desktop-0.14.0-fandom.1.module",
+        "group": "com.mohamedrejeb.calf",
+        "module": "calf-core-desktop",
+        "version": "0.14.0-fandom.1"
+      }
+    },
+    {
+      "name": "desktopRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../calf-core-desktop/0.14.0-fandom.1/calf-core-desktop-0.14.0-fandom.1.module",
+        "group": "com.mohamedrejeb.calf",
+        "module": "calf-core-desktop",
+        "version": "0.14.0-fandom.1"
+      }
+    },
+    {
+      "name": "desktopSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../calf-core-desktop/0.14.0-fandom.1/calf-core-desktop-0.14.0-fandom.1.module",
+        "group": "com.mohamedrejeb.calf",
+        "module": "calf-core-desktop",
+        "version": "0.14.0-fandom.1"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../calf-core-iosarm64/0.14.0-fandom.1/calf-core-iosarm64-0.14.0-fandom.1.module",
+        "group": "com.mohamedrejeb.calf",
+        "module": "calf-core-iosarm64",
+        "version": "0.14.0-fandom.1"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../calf-core-iosarm64/0.14.0-fandom.1/calf-core-iosarm64-0.14.0-fandom.1.module",
+        "group": "com.mohamedrejeb.calf",
+        "module": "calf-core-iosarm64",
+        "version": "0.14.0-fandom.1"
+      }
+    },
+    {
+      "name": "iosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../calf-core-iosarm64/0.14.0-fandom.1/calf-core-iosarm64-0.14.0-fandom.1.module",
+        "group": "com.mohamedrejeb.calf",
+        "module": "calf-core-iosarm64",
+        "version": "0.14.0-fandom.1"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../calf-core-iosarm64/0.14.0-fandom.1/calf-core-iosarm64-0.14.0-fandom.1.module",
+        "group": "com.mohamedrejeb.calf",
+        "module": "calf-core-iosarm64",
+        "version": "0.14.0-fandom.1"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../calf-core-iossimulatorarm64/0.14.0-fandom.1/calf-core-iossimulatorarm64-0.14.0-fandom.1.module",
+        "group": "com.mohamedrejeb.calf",
+        "module": "calf-core-iossimulatorarm64",
+        "version": "0.14.0-fandom.1"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../calf-core-iossimulatorarm64/0.14.0-fandom.1/calf-core-iossimulatorarm64-0.14.0-fandom.1.module",
+        "group": "com.mohamedrejeb.calf",
+        "module": "calf-core-iossimulatorarm64",
+        "version": "0.14.0-fandom.1"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../calf-core-iossimulatorarm64/0.14.0-fandom.1/calf-core-iossimulatorarm64-0.14.0-fandom.1.module",
+        "group": "com.mohamedrejeb.calf",
+        "module": "calf-core-iossimulatorarm64",
+        "version": "0.14.0-fandom.1"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../calf-core-iossimulatorarm64/0.14.0-fandom.1/calf-core-iossimulatorarm64-0.14.0-fandom.1.module",
+        "group": "com.mohamedrejeb.calf",
+        "module": "calf-core-iossimulatorarm64",
+        "version": "0.14.0-fandom.1"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../calf-core-js/0.14.0-fandom.1/calf-core-js-0.14.0-fandom.1.module",
+        "group": "com.mohamedrejeb.calf",
+        "module": "calf-core-js",
+        "version": "0.14.0-fandom.1"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../calf-core-js/0.14.0-fandom.1/calf-core-js-0.14.0-fandom.1.module",
+        "group": "com.mohamedrejeb.calf",
+        "module": "calf-core-js",
+        "version": "0.14.0-fandom.1"
+      }
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../calf-core-js/0.14.0-fandom.1/calf-core-js-0.14.0-fandom.1.module",
+        "group": "com.mohamedrejeb.calf",
+        "module": "calf-core-js",
+        "version": "0.14.0-fandom.1"
+      }
+    },
+    {
+      "name": "jsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../calf-core-js/0.14.0-fandom.1/calf-core-js-0.14.0-fandom.1.module",
+        "group": "com.mohamedrejeb.calf",
+        "module": "calf-core-js",
+        "version": "0.14.0-fandom.1"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../calf-core-wasm-js/0.14.0-fandom.1/calf-core-wasm-js-0.14.0-fandom.1.module",
+        "group": "com.mohamedrejeb.calf",
+        "module": "calf-core-wasm-js",
+        "version": "0.14.0-fandom.1"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../calf-core-wasm-js/0.14.0-fandom.1/calf-core-wasm-js-0.14.0-fandom.1.module",
+        "group": "com.mohamedrejeb.calf",
+        "module": "calf-core-wasm-js",
+        "version": "0.14.0-fandom.1"
+      }
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../calf-core-wasm-js/0.14.0-fandom.1/calf-core-wasm-js-0.14.0-fandom.1.module",
+        "group": "com.mohamedrejeb.calf",
+        "module": "calf-core-wasm-js",
+        "version": "0.14.0-fandom.1"
+      }
+    },
+    {
+      "name": "wasmJsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../calf-core-wasm-js/0.14.0-fandom.1/calf-core-wasm-js-0.14.0-fandom.1.module",
+        "group": "com.mohamedrejeb.calf",
+        "module": "calf-core-wasm-js",
+        "version": "0.14.0-fandom.1"
+      }
+    }
+  ]
+}

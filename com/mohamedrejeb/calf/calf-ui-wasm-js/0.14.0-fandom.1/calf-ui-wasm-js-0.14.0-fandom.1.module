@@ -1,0 +1,190 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../calf-ui/0.14.0-fandom.1/calf-ui-0.14.0-fandom.1.module",
+    "group": "com.mohamedrejeb.calf",
+    "module": "calf-ui",
+    "version": "0.14.0-fandom.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "calf-ui-wasm-js-0.14.0-fandom.1.klib",
+          "url": "calf-ui-wasm-js-0.14.0-fandom.1.klib",
+          "size": 1083720,
+          "sha512": "1da47b047b607f648795429f1a22b6d73bfe64bacb282f136fed627668614d187e7d1dff2a3f592437060c42480518190c98e0194976ac1df5ab1ddd4e838600",
+          "sha256": "b7095a600691ef5a8ad3c5e493905ccd9b49f383104641e3a0e9da1ddf3fc1f6",
+          "sha1": "98ce61d988c452c3d53a0e22ab3b88cfd07ffc05",
+          "md5": "0adcec1e5eb92a14548329f68019682b"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        },
+        {
+          "group": "com.mohamedrejeb.calf",
+          "module": "calf-core",
+          "version": {
+            "requires": "0.14.0-fandom.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.12.0-alpha03"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "calf-ui-wasm-js-0.14.0-fandom.1.klib",
+          "url": "calf-ui-wasm-js-0.14.0-fandom.1.klib",
+          "size": 1083720,
+          "sha512": "1da47b047b607f648795429f1a22b6d73bfe64bacb282f136fed627668614d187e7d1dff2a3f592437060c42480518190c98e0194976ac1df5ab1ddd4e838600",
+          "sha256": "b7095a600691ef5a8ad3c5e493905ccd9b49f383104641e3a0e9da1ddf3fc1f6",
+          "sha1": "98ce61d988c452c3d53a0e22ab3b88cfd07ffc05",
+          "md5": "0adcec1e5eb92a14548329f68019682b"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "calf-ui-wasm-js-0.14.0-fandom.1-sources.jar",
+          "url": "calf-ui-wasm-js-0.14.0-fandom.1-sources.jar",
+          "size": 132874,
+          "sha512": "98abba223966458c1637be71931ac4630966a00040347010fdcb12aee4a84675236398552cb7bc76c8bc81873ef15e0a6abe880108caea3fca8d6b685c0021c6",
+          "sha256": "574bc6f4e7011696eb83c153955c7b84a83b5c8a0924bc2ca58a2ff9c3a88e3c",
+          "sha1": "b0046366896667de61726ae58a231ccd6d00cee7",
+          "md5": "bb3ca57edca32d148270a8c410d9d60a"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        },
+        {
+          "group": "com.mohamedrejeb.calf",
+          "module": "calf-core",
+          "version": {
+            "requires": "0.14.0-fandom.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3",
+          "version": {
+            "requires": "1.12.0-alpha03"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "calf-ui-0.14.0-fandom.1.kotlin_resources.zip",
+          "url": "calf-ui-wasm-js-0.14.0-fandom.1-kotlin_resources.kotlin_resources.zip",
+          "size": 346,
+          "sha512": "8c132708527084f1626953f9faee5f8f79c7b2bbf5e1166e797497a88110b1396a62a42d802f6f987c683d84dc42fdfb847eda87bc6a0ed6a1035ec2bbe64f7d",
+          "sha256": "2a6897dda254704f23ab0e53c75ed424565b1fa4217c40decb4c1b9baceabc6c",
+          "sha1": "5e15ca49a23db69f0561c9725212e04593b3ef6f",
+          "md5": "971e8fb7a2ef31a20e2fe9fa83d2e8a5"
+        }
+      ]
+    }
+  ]
+}

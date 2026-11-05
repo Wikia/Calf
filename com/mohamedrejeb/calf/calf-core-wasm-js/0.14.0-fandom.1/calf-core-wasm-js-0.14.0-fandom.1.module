@@ -1,0 +1,148 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../calf-core/0.14.0-fandom.1/calf-core-0.14.0-fandom.1.module",
+    "group": "com.mohamedrejeb.calf",
+    "module": "calf-core",
+    "version": "0.14.0-fandom.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "calf-core-wasm-js-0.14.0-fandom.1.klib",
+          "url": "calf-core-wasm-js-0.14.0-fandom.1.klib",
+          "size": 10276,
+          "sha512": "82b7f1173bc23d36c7d4a510ec1161b8c293cc754915fd7d2eb09c4c80ab3269814aff4c162005db91c8c52f793111f26ea8a86a96e6c4bce08e06f92a14c4f8",
+          "sha256": "bb02b8b7803fb93fef8f584ceac358a8fa197fc8c8372b3a82adf0b8a3340bc9",
+          "sha1": "8c3edbfc5178f24284cb4db56ede1d6ebf3f0670",
+          "md5": "c32f5be4babcc1db38073ca65aaf9a46"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "calf-core-wasm-js-0.14.0-fandom.1.klib",
+          "url": "calf-core-wasm-js-0.14.0-fandom.1.klib",
+          "size": 10276,
+          "sha512": "82b7f1173bc23d36c7d4a510ec1161b8c293cc754915fd7d2eb09c4c80ab3269814aff4c162005db91c8c52f793111f26ea8a86a96e6c4bce08e06f92a14c4f8",
+          "sha256": "bb02b8b7803fb93fef8f584ceac358a8fa197fc8c8372b3a82adf0b8a3340bc9",
+          "sha1": "8c3edbfc5178f24284cb4db56ede1d6ebf3f0670",
+          "md5": "c32f5be4babcc1db38073ca65aaf9a46"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "calf-core-wasm-js-0.14.0-fandom.1-sources.jar",
+          "url": "calf-core-wasm-js-0.14.0-fandom.1-sources.jar",
+          "size": 3274,
+          "sha512": "8121a14ba0dea2adea19cd1de4f050dd1ccbcebec3a96a702e6532424e238e34ba3dbbf7b49796a112967a1d4003eb8814d3e4a29f8e6b5cda272fb91e0c6c49",
+          "sha256": "8ee0e58a853bc0a20215fbf33327579b830bd13ae57515d5f709398a96b2b91f",
+          "sha1": "74ffca725748c016d59fb45fa74efdbd57f4c511",
+          "md5": "0644f87c4bfcda80b9b666f11934208f"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresourcesjs",
+        "org.gradle.usage": "kotlin-multiplatformresourcesjs",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "calf-core-0.14.0-fandom.1.kotlin_resources.zip",
+          "url": "calf-core-wasm-js-0.14.0-fandom.1-kotlin_resources.kotlin_resources.zip",
+          "size": 350,
+          "sha512": "54e1567c7cb6c17ca498e6544499770ea44712f24c53bb4d86427a890830878b0f76272e773e705d6a2c0393af74da08043c6f8d53ca8caada4201a3d76bb10a",
+          "sha256": "43e7562346c2442c722b7bb2a05fafa03da6974244eac117e4522927fdd150f3",
+          "sha1": "c7d2111db1f523514d1417ac486e3a21dc883252",
+          "md5": "7828721b3c6bc34f64f2e463b4377d98"
+        }
+      ]
+    }
+  ]
+}
